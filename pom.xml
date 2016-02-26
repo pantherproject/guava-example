@@ -14,6 +14,11 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>joda-time</groupId>
+                <artifactId>joda-time</artifactId>
+                <version>2.9.1</version>
+            </dependency>
+            <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>18.0</version>
@@ -28,11 +33,40 @@
                 <artifactId>junit</artifactId>
                 <version>4.11</version>
             </dependency>
+            <dependency>
+                <groupId>qunar.tc.coreinfo</groupId>
+                <artifactId>core-info-client-encrypt</artifactId>
+                <version>1.0.2</version>
+            </dependency>
+            <dependency>
+                <groupId>qunar.tc.coreinfo</groupId>
+                <artifactId>core-info-client-decrypt</artifactId>
+                <version>1.0.2</version>
+            </dependency>
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>1.2.13</version>
+            </dependency>
+            <dependency>
+                <groupId>com.qunar.sms.client</groupId>
+                <artifactId>sms-client</artifactId>
+                <version>3.1.0</version>
+            </dependency>
+            <dependency>
+                <groupId>joda-time</groupId>
+                <artifactId>joda-time</artifactId>
+                <version>2.9</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
     <!--maven依赖管理-->
     <dependencies>
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
@@ -44,6 +78,22 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>qunar.tc.coreinfo</groupId>
+            <artifactId>core-info-client-encrypt</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>qunar.tc.coreinfo</groupId>
+            <artifactId>core-info-client-decrypt</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.qunar.sms.client</groupId>
+            <artifactId>sms-client</artifactId>
         </dependency>
     </dependencies>
 </project>
